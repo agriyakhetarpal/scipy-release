@@ -446,16 +446,16 @@ wheels = [
 
 [[package]]
 name = "pkgconf"
-version = "2.5.1.post1"
+version = "3.0.7.post0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "colorama", marker = "os_name == 'nt'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f3/2c/db2a46e35c3f3f9cca7ec1de9ea222dd898aa0dd4a94993accbd687eb940/pkgconf-2.5.1.post1.tar.gz", hash = "sha256:a123243d18214906a23ee290917e6117dd7d92ee6660e66c80c956ee9afb70cb", size = 153921, upload-time = "2026-02-13T04:52:29.593Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d1/fe/95bf0093f0f1bf02ca9aa935c73a8757863cdfdcd8f7d750d83e10d8d154/pkgconf-3.0.7.post0.tar.gz", hash = "sha256:26db22dbba85a818604ff49260c98748af9ded2d145eb6688dbc6ace055a1668", size = 293578, upload-time = "2026-09-22T02:51:34.002Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d0/7b/57320181d5dcd97eb9ffc15b239c559095cd0846033662c4411f2b599316/pkgconf-2.5.1.post1-py3-none-win32.whl", hash = "sha256:1b036d4197dc677738cec1619a06947c47e4112b0394e5b2047fda2b51784e86", size = 52519, upload-time = "2026-02-13T04:52:26.061Z" },
-    { url = "https://files.pythonhosted.org/packages/5f/78/d082a00a15903fd989c0a16de6bc3201acead59ad7fff9f19ca6144636cf/pkgconf-2.5.1.post1-py3-none-win_amd64.whl", hash = "sha256:288bcf988617c2549255f41c9e109ed13c196e38ec3d4f75702751858b13fc8c", size = 52519, upload-time = "2026-02-13T04:52:27.184Z" },
-    { url = "https://files.pythonhosted.org/packages/f9/6f/5a8cc04671f38f60b7cc1f68cc5384afb3d879c00e71953e15adb0919a6c/pkgconf-2.5.1.post1-py3-none-win_arm64.whl", hash = "sha256:2f69e9c9d0049626e2534c09a45b216efad3f16bbefcaff4586371efa213f36f", size = 48350, upload-time = "2026-02-13T04:52:28.427Z" },
+    { url = "https://files.pythonhosted.org/packages/a8/b2/e359c9573000f7e02c1cd35105a060403e7b47ad2e7f2cf6f3bd4fb8be80/pkgconf-3.0.7.post0-py3-none-win32.whl", hash = "sha256:9d60ee4d9f942564a214027347a51b12c5ffac1cf84a3b9e6ad707c35fae45c0", size = 64584, upload-time = "2026-09-22T02:51:30.933Z" },
+    { url = "https://files.pythonhosted.org/packages/e2/53/37ee781984b17e16c9b09726c438a327b242721166213411623814b89ddf/pkgconf-3.0.7.post0-py3-none-win_amd64.whl", hash = "sha256:e7906bb5ec1d0d074e397466075a8545f1c50cb11710768644f222ba8acebc7f", size = 64585, upload-time = "2026-09-22T02:51:31.96Z" },
+    { url = "https://files.pythonhosted.org/packages/94/b7/8755f13caa6a1ceba992cabf6aec4684a9681457dc502925a9aeca0a7937/pkgconf-3.0.7.post0-py3-none-win_arm64.whl", hash = "sha256:3716a2a2b2dca3466589b371e5bfa88bb5a4e84e4e7a3771ce14b112a0965f05", size = 59158, upload-time = "2026-09-22T02:51:32.977Z" },
 ]
 
 [[package]]
@@ -659,7 +659,7 @@ build = [
     { name = "pythran", specifier = ">=0.18.1" },
 ]
 openblas32 = [
-    { name = "pkgconf", marker = "sys_platform == 'win32'", specifier = "==2.5.1.post1" },
+    { name = "pkgconf", marker = "sys_platform == 'win32'", specifier = "==3.0.7.post0" },
     { name = "scipy-openblas32", specifier = "==0.3.34.237.0" },
 ]
 test-core = [
