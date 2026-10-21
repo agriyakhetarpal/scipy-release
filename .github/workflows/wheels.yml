@@ -74,7 +74,7 @@ jobs:
           # See CONTRIBUTING.md for how to regenerate these files. The cooldown the
           # lock was generated with is recorded in it, and has to be repeated here.
           python3 tools/sync_dependency_groups.py scipy-src | diff -u pyproject.toml -
-          uv lock --check --exclude-newer "7 days"
+          uv lock --check --exclude-newer "7 days" --exclude-newer-package certifi=false
 
       - name: Record the pins that will be used
         run: |
