@@ -5,8 +5,8 @@ env:
   # to build wheels. This is normally set to `main` in the main branch of this
   # repo, and to a tag name (e.g., `v2.3.2`) on a release branch.
   SOURCE_REF_TO_BUILD: main
-  UV_VERSION: "0.12.5"
-  UV_HASH: "68a509da24b06b4223a1c0175fb5eb5bc79342b76cbeff0cfe51ac3f5b17b6b2"
+  UV_VERSION: "0.13.4"
+  UV_HASH: "2b428396f12572d4429cf210ca234dd599a33b3af0958a4d5ed569d63e3f344f"
 
 on:
   schedule:
@@ -247,7 +247,7 @@ jobs:
         uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884 # v10.3.0
         with:
           version: ${{ env.UV_VERSION }}
-          checksum: "68a509da24b06b4223a1c0175fb5eb5bc79342b76cbeff0cfe51ac3f5b17b6b2"
+          checksum: ${{ env.UV_HASH }}
           enable-cache: false
 
       - name: Set up OpenBLAS
